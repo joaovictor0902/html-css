@@ -1,0 +1,24 @@
+/*@charset "UTF-8";
+
+@font-face{
+    font-family: 'love';
+    src: url('fonts/love\ larry.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'spide';
+    src: url('fonts/Gotica\ Moderna.ttf');
+    font-weight: normal;
+    font-style: normal;
+    /*
+      Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+    */
+
+
