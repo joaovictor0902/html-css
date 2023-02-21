@@ -57,7 +57,7 @@ section{
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--font3);
-    font-size: 3.5vw;
+    font-size: 5vw;
 }
 
 section p{
@@ -101,4 +101,5 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 4vw;
 }
