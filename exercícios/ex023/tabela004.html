@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        thead th {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        tbody td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        tbody td:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+     <table>
+        <thead>
+            <th colspan="4">Informações dos animais</th>
+        </thead>
+        <thead>
+            <tr>
+                <th>Nome do Animal</th>
+                <th>Tamanho</th>
+                <th>Habitat</th>
+                <th>Características</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tigre</td>
+                <td>Grande</td>
+                <td>Floresta</td>
+                <td>Listras e dentes afiados</td>
+            </tr>
+            <tr>
+                <td>Papagaio</td>
+                <td>Pequeno</td>
+                <td>Floresta</td>
+                <td>Penas coloridas e fala</td>
+            </tr>
+            <tr>
+                <td>Elefante</td>
+                <td>Gigante</td>
+                <td>Savana</td>
+                <td>Tromba e presas longas</td>
+            </tr>
+            <tr>
+                <td>Baleia</td>
+                <td>Enorme</td>
+                <td>Oceano</td>
+                <td>Barbatanas e cauda grande</td>
+            </tr>
+            <tr>
+                <td>Formiga</td>
+                <td>Muito pequeno</td>
+                <td>Solo</td>
+                <td>Trabalho em equipe e formigueiro</td>
+            </tr>
+        </tbody>
+     </table>
+</body>
+</html>
